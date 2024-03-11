@@ -1,30 +1,32 @@
-# React + TypeScript + Vite
+## Demo
+https://technicaltestred5g.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Prueba Tecnica Red 5g
 
-Currently, two official plugins are available:
+Proyecto referente a la prueba tecnica para la vacante de desarrollador React en la empresa Red 5G
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Comenzando
 
-## Expanding the ESLint configuration
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Prerrequisitos
 
-- Configure the top-level `parserOptions` property like this:
+Para poder ejecutar este proyecto en tu máquina local, necesitarás tener instalado Node.js y Yarn. Puedes descargar Node.js desde [aquí](https://nodejs.org/es/download/) y Yarn desde [aquí](https://classic.yarnpkg.com/en/docs/install/).
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Además, este proyecto está creado con [Vite](https://vitejs.dev/), un entorno de desarrollo moderno y rápido para Vue, React, Preact y LitElement.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Instalación
+
+1. Clona el repositorio en tu máquina local utilizando `git clone https://github.com/tu-usuario/tu-proyecto.git`.
+
+2. Navega hasta el directorio del proyecto con `cd tu-proyecto`.
+
+3. Instala las dependencias del proyecto con `yarn install`.
+
+4. Una vez instaladas las dependencias, puedes iniciar el servidor de desarrollo con `yarn dev`.
+
+Ahora deberías poder ver el proyecto corriendo en `localhost:5000` (o el puerto que hayas configurado).
+
+## Construido con
+
+* ReactJs - El framework utilizado
