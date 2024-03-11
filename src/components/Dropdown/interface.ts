@@ -5,11 +5,11 @@ export interface IDropdown {
     nameChanges: string;
     typeSelect?: TTypeSelect;
     changes: number | string;
-    setChanges: (value: number | string, name: string) => void;
+    setChanges: (value: string | number | null, name: string) => void;
 }
 
 type TOptions = {
-    value: number | string,
+    value: number | string | null,
     label: string
 }[]
 

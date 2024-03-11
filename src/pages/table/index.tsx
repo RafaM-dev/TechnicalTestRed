@@ -24,7 +24,7 @@ interface IForm {
 export const TablePage = () => {
     const [form, setForm] = useState<IForm>({});
 
-    const handleChange = (value: string | number, name: string) => {
+    const handleChange = (value: string | number | null, name: string) => {
         setForm({ ...form, [name]: value })
     }
 

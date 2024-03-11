@@ -2,7 +2,7 @@ import { forwardRef } from 'react';
 import { FaRegCalendarDays } from 'react-icons/fa6';
 import './styles.css';
 
-export const CustomInput = forwardRef(({ value, onClick, label, id }, ref) => (
+export const CustomInput = forwardRef<HTMLInputElement, { value?: string, onClick?: () => void, label: string, id: string }>(({ value, onClick, label, id }, ref) => (
     <div className="input-container-date">
         <input
             id={id}
