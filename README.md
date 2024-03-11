@@ -29,4 +29,4 @@ Ahora deberías poder ver el proyecto corriendo en `localhost:5000` (o el puerto
 
 ## Construido con
 
-* ReactJs - El framework utilizado
+* ReactJs
