@@ -62,7 +62,7 @@ export const TablePage = () => {
         <div className='container'>
             <header className="header">
                 <div className="header--logo">
-                    <img src="/assets/headerLogo.svg" alt="logo" />
+                    <h2>TupFy</h2>
                 </div>
                 <Link className="link" to="/">
                     <span className="header--logout">

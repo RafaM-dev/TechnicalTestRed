@@ -1,7 +1,6 @@
 import './styles.css';
 import { useLogin } from './useLogin';
 import { Link } from "react-router-dom";
-import Logo from '/assets/Grupo_258.svg';
 import { Button } from '../../components/Button';
 
 export const LoginPage = () => {
@@ -11,8 +10,7 @@ export const LoginPage = () => {
         <section className='container-background'>
             <div className='flex-column-center'>
                 <header className='flex-column-center'>
-                    <img src={Logo.toString()} alt="Logo" />
-                    <h2>SufiPay</h2>
+                    <h2>TupFy</h2>
                     <p>Administrador comercial</p>
                 </header>
                 <form style={{ width: '100%', margin: '0 auto' }} onSubmit={handleSubmit}>
