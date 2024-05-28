@@ -53,7 +53,6 @@ export const TablePage = () => {
         });
     }
 
-
     useEffect(() => {
         setIsInputEmpty(!form?.document && !form?.disbursement && !form?.since_date && !form?.until_date && !form?.typeDocument);
     }, [form?.document, form?.disbursement, form?.since_date, form?.until_date, form?.typeDocument]);
